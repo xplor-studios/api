@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: white;
     margin: 0; /* Remove default margin */
     height: 100vh; /* Ensure the body takes up the full viewport height */
