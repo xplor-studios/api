@@ -1,1 +1,41 @@
-pretend this is fire :fire:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your API Name</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="topbar">
+        <h1>Your API Name</h1>
+    </div>
+
+    <div class="button-container">
+        <button onclick="showEndpoint('wl')">Check User Access</button>
+        <button onclick="showEndpoint('greet')">Greet User</button>
+        <!-- Add more buttons for other endpoints as needed -->
+    </div>
+
+    <div class="api-info" id="api-info"></div>
+
+    <script>
+        function showEndpoint(endpoint) {
+            const apiInfo = document.getElementById('api-info');
+            let info;
+
+            switch (endpoint) {
+                case 'wl':
+                    info = `<h2>API Endpoint: /api/wl/:username</h2>
+                            <p>Check if a user is allowed access.</p>
+                            <pre><code>fetch('http://your-api-url.com/api/wl/username')</code></pre>`;
+                    break;
+                default:
+                    info = `<p>Endpoint not found.</p>`;
+            }
+
+            apiInfo.innerHTML = info;
+        }
+    </script>
+</body>
+</html>
