@@ -1,8 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    color: white;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background-image: url('https://wallpapersmug.com/download/1920x1080/9a98ac/blue-dark-pattern-huawei-p30.jpg');
+    background-size: cover; /* Scale the image to cover the entire page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
 }
 
 .topbar {
@@ -12,7 +16,7 @@ body {
     right: 0;
     height: 60px;
     background: rgba(255, 255, 255, 0.8); /* Adjust transparency */
-    backdrop-filter: blur(10px); /* Blurs the background */
+    backdrop-filter: blur(30px); /* Blurs the background */
     display: flex;
     align-items: center;
     justify-content: center;
