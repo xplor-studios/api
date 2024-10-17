@@ -57,7 +57,8 @@ button:hover {
 .api-info {
     margin-top: 20px;
     padding: 20px;
-    background: black;
-    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
