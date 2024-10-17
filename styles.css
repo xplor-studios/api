@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     color: white;
-    margin: 0;
-    padding: 0;
-    background-image: url('https://wallpapersmug.com/download/1920x1080/9a98ac/blue-dark-pattern-huawei-p30.jpg');
-    background-size: contain; /* Scale the image to cover the entire page */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    background-image: url('https://wallpapersmug.com/download/1920x1080/9a98ac/blue-dark-pattern-huawei-p30.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Make the background image cover the entire area */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the image */
 }
