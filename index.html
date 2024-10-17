@@ -26,9 +26,11 @@
 
             switch (endpoint) {
                 case 'wl':
-                    info = `<h2>API Endpoint: /api/wl/:username</h2>
-                            <p>Check if a user is allowed access.</p>
-                            <pre><code>fetch('https://38.69.12.10:1287/api/wl/username')</code></pre>`;
+                    info = `<center>
+                            <h2>Endpoint: /api/wl/:username</h2>
+                            <p>Check if a user is on the whitelist.</p>
+                            <pre><code>fetch('https://api.xplor-studios.uk/api/wl/username')</code></pre>
+                            </center>`;
                     break;
                 default:
                     info = `<p>Endpoint not found.</p>`;
